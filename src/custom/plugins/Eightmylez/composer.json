@@ -1,6 +1,6 @@
 {
-  "name": "swag/theme-skeleton",
-  "description": "Theme skeleton plugin",
+  "name": "8mylez/codecase-plugin",
+  "description": "Plugin für die Code Cases von 8mylez",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
@@ -11,8 +11,8 @@
   "extra": {
     "shopware-plugin-class": "Eightmylez\\Eightmylez",
     "label": {
-      "de-DE": "Theme Eightmylez plugin",
-      "en-GB": "Theme Eightmylez plugin"
+      "de-DE": "8mylez Code Case plugin",
+      "en-GB": "8mylez Code Case plugin"
     }
   }
 }
