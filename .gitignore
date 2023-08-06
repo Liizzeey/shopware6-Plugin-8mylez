@@ -1,0 +1,12 @@
+/.vscode
+
+src/*
+!src/custom/
+
+src/custom/*
+!src/custom/plugins/
+
+src/custom/plugins/*
+!src/custom/plugins/Eightmylez
+
+/docker-compose.yml
