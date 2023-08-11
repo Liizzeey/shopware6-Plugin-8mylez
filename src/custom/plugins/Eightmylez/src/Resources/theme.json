@@ -18,5 +18,29 @@
   "asset": [
     "@Storefront",
     "app/storefront/src/assets"
-  ]
+  ],
+  "config": {
+    "blocks" : {
+      "buyButton": {
+        "label": {
+          "en-GB": "Customize the buy button.",
+          "de-DE": "Passen Sie ihren Einkaufsknopf an."
+        }
+      }
+    },
+    "fields": {
+      "buyButtonBackroundColour": {
+        "label": {
+          "en-GB": "Customize colour",
+          "de-DE": "Farbe anpassen"
+        },
+        "type": "color",
+        "value": "#0b539b",
+        "scss": true,
+        "editable": true,
+        "block": "buyButton"
+
+      }
+    }
+  }
 }
