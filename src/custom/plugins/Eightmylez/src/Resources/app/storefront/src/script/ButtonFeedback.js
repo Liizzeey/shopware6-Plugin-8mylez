@@ -31,7 +31,7 @@ export default class ButtonFeedback extends AddToCart {
         this._buyButtonEL.innerText = "Wird in den Warenkorb gelegt"
         window.setTimeout(() => {
             this._buyButtonEL.classList.remove("In_den_Warenkorb")
-            this._buyButtonEL.innerText = "Add to shopping cart"
+            this._buyButtonEL.innerText = "In den Warenkorb"
         }, 1000)
     }   
 }
